@@ -28,12 +28,14 @@ while rodar == True:
         
         valor = input('Deseja continuar? [s/n]')
         
-        if valor == "n":
+
+        
+        if valor.lower() == "n":
             print('Obrigado por testar minha calculadora!')
             rodar = False
             alternativa = False
             
-        elif valor == "s":
+        elif valor.lower() == "s":
             alternativa = False
             
         else:
